@@ -1,2 +1,2 @@
-# odin-recipies
-a practice recipie website
+Hello anyone reading this, This is a practice website from TheOdinFoundation course which I'm currently following. 
+So far, I've moved from windows to Ubuntu and I've gotten somewhat used to the linux file system and I've installed git and other useful software. I've also done some projects to practice how to use git and html and the basics.
