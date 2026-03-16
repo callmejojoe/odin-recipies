@@ -1,0 +1,23 @@
+body {
+            background-color: gainsboro;
+        }
+        h1 {
+            /*
+            height: fit-content;
+            width: fit-content; */
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: rgb(207, 207, 207);
+            color: rgb(75, 75, 75);
+        }
+        ul {
+            background-color: rgb(175, 175, 175);
+            text-align: left;
+            color: darkkhaki;
+        }
+        li {
+            color: beige;
+        }
+p2 {
+    background-color: hsl(100, 70%, 40%);
+}
