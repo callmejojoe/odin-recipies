@@ -1,46 +1,65 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-body {
-    background-color: #f4e9d0;
-    
-}
-.title {
-    align-items: first baseline;
-    color: #1a1208;
-    background-color: #ede0c4;
-    width: fit-content;
-    height: auto;
-    padding: 5px;
-    border-radius: 15px;
-    border: 1px solid hsl(42, 60%, 66%);
-    box-shadow: 2px 4px 5px rgba(0,0,0,.2);
-}
-.list {
-    background-color: #ede0c4;
-    width: fit-content;
-    height: fit-content;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid hsl(42, 60%, 66%);
-    box-shadow: 2px 4px 5px rgba(0,0,0,.2);
-}
-.footer {
-    position: bottom;
-    background-color: bisque;
-    width: auto;
-    height: auto;
-    padding: 1px;
-    border: 1px solid salmon;
-}
-#footer {
-    text-align: center;
+/* {
+  outline: 2px solid red;
+} */
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.title {
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000 solid 5px;
+    box-shadow: #000000 5px 5px 0px;
+    padding: 2px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.list {
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000 solid 5px;
+    padding: 25px;
+    width: fit-content;
+}
+
+.footer {
+    margin: 20px 0px 0px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.recp {
+    font-size: 1.25em;
+    margin: 20px;
+    border: #000000 solid 5px;
+    background-color: #ffffff;
+}
+
+.recp:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.recp:visited {
+    color: #9d9d9d;
+    text-decoration: underline;
+}
+
+.recp:hover {
+    border: #000000 solid 5px;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;  
+    box-shadow: #000000 5px 5px 0px;
 }
